@@ -10,7 +10,7 @@ namespace CafeBoston.DATA.Classes
     {
         Active=0,
         Paid=1,
-        Cancelled=2,
+        Canceled=2,
 
 
 

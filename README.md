@@ -7,6 +7,8 @@ Product
 * UnitPrice: decimal
 - ToString(): string
 
+
+
 OrderDetail
 * ProductName: string
 * UnitPrice: decimal

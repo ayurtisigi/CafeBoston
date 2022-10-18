@@ -9,14 +9,16 @@ namespace CafeBoston.DATA.Classes
     public class CafeData
     {
 
-        public int TableCount { get; set; }
+        public int TableCount { get; set; } = 20;
 
 
-        public List<Product> Products { get; set; }
+        public List<Product> Products { get; set; } = new List<Product>();
 
-        public List<Order> ActiveOrders { get; set; }
+        public List<Order> ActiveOrders { get; set; } = new List<Order>();
 
-        public List<Order> PastOrders { get; set; }
+
+        public List<Order> PastOrders { get; set; } = new List<Order>();
+
 
 
 

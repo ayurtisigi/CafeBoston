@@ -16,15 +16,14 @@ namespace CafeBoston.DATA.Classes
         public int Quantity { get; set; }
 
 
-        public readonly string TotalPriceTRY { get; set; } 
+        public string TotalPriceTRY => TotalPrice().ToString("c2");
+
 
         public decimal TotalPrice()
 
         {
 
-
-            return; 
-
+            return Quantity * UnitPrice;
 
 
         }
